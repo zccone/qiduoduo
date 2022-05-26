@@ -1,0 +1,36 @@
+{
+  "name": "vue3-ts-vite-vant-h5",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs"
+    ]
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^27.5.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vue/vue3-jest": "^28.0.0",
+    "ant-design-vue": "^3.2.4",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
